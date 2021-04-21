@@ -4,7 +4,8 @@
   "description": "Interview Questions Solved",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "execute": "nodemon 2-majority-element/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ankitbtanna/interview-cake/issues"
   },
-  "homepage": "https://github.com/ankitbtanna/interview-cake#readme"
+  "homepage": "https://github.com/ankitbtanna/interview-cake#readme",
+  "dependencies": {
+    "ndb": "^1.1.5",
+    "nodemon": "^2.0.7"
+  }
 }
