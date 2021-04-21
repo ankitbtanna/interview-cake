@@ -1,0 +1,19 @@
+{
+  "name": "interview-cake",
+  "version": "1.0.0",
+  "description": "Interview Questions Solved",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitbtanna/interview-cake.git"
+  },
+  "author": "Ankit Bharat Tanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitbtanna/interview-cake/issues"
+  },
+  "homepage": "https://github.com/ankitbtanna/interview-cake#readme"
+}
