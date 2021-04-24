@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "execute": "nodemon 2-majority-element/using-reduce.js"
+    "execute": "nodemon 4-rotate-arrays/temp-array.js"
   },
   "repository": {
     "type": "git",
