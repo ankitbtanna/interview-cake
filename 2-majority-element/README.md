@@ -5,11 +5,11 @@
 * (and hence there is at most one such element). 
 
 ## Example 1
-**Input**: {3, 3, 4, 2, 4, 4, 2, 4, 4}
+**Input**: [3, 3, 4, 2, 4, 4, 2, 4, 4]
 **Output**: 4
 **Explanation**: The frequency of 4 is 5 which is greater than the half of the size of the array size. 
 
 ## Example 2
-**Input**: {3, 3, 4, 2, 4, 4, 2, 4}
+**Input**: [3, 3, 4, 2, 4, 4, 2, 4]
 **Output**: No Majority Element
 **Explanation**: There is no element whose frequency is greater than the half of the size of the array size.

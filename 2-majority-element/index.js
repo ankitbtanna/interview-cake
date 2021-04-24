@@ -1,4 +1,4 @@
-function findMajoityElement(numbers) {
+function findMajorityElement(numbers) {
     let maxCount = 0;
     let index = -1;
     const arrayLength = numbers.length;
@@ -26,9 +26,9 @@ console.log('Majority Element');
 console.log('###############################');
 const input1 = [1, 2, 3, 4, 4, 4, 4, 5, 3, 2, 4, 4, 4, 4, 7];
 console.log(`INPUT = ${JSON.stringify(input1)}`)
-findMajoityElement(input1);
+findMajorityElement(input1);
 
-const input2 = [1, 2, 3, 4, 4, 4, 4, 5, 3, 2, 4, 4, 4, 4, 7, 5, 5, 5, 5, 5, 5, 1, 2, 1, 2, 5];
+const input2 = [4, 4, 4, 4, 4, 4, 1, 2, 2, 3];
 console.log(`INPUT = ${JSON.stringify(input2)}`)
-findMajoityElement(input2);
+findMajorityElement(input2);
 console.log('###############################');
