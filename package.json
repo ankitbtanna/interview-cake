@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "execute": "nodemon 4-rotate-arrays/temp-array.js"
+    "execute": "nodemon 6-positive-negative-rearrange/index.js"
   },
   "repository": {
     "type": "git",
