@@ -1,4 +1,4 @@
-function rotateArray(arr, d, n) {
+function findMissingNumber(arr, d, n) {
     const tempArray = [...arr].splice(0, d);
     for (let i = 0; i < d; i++) arr.shift();
     console.log([...arr, ...tempArray].join(' '));
@@ -10,11 +10,11 @@ console.log('Rotate Array');
 console.log('###############################');
 const input1 = [1,2,3,4,5,6,7,8,9,10];
 console.log(`INPUT = ${JSON.stringify(input1)}`)
-rotateArray(input1, 2, 10);
+findMissingNumber(input1, 2, 10);
 
 const input2 = [1,2,3,4,5];
 console.log(`INPUT = ${JSON.stringify(input2)}`)
-rotateArray(input2, 2, 5);
+findMissingNumber(input2, 2, 5);
 
 const input3 = [
   "40",
@@ -96,5 +96,5 @@ const input3 = [
   "25",
 ];
 console.log(`INPUT = ${JSON.stringify(input3)}`);
-rotateArray(input3, 69, 77);
+findMissingNumber(input3, 69, 77);
 console.log('###############################');

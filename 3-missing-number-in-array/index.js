@@ -1,4 +1,4 @@
-function rotateArray(input, n) {
+function missingNumber(input, n) {
     const originalArray = [...Array(n).keys()];
     let missingNumber;
     originalArray.forEach((item) => {
@@ -16,9 +16,9 @@ console.log('Missing Number');
 console.log('###############################');
 const input1 = [1,2,3,4,5,7,8,9,10];
 console.log(`INPUT = ${JSON.stringify(input1)}`)
-rotateArray(input1, 10);
+missingNumber(input1, 10);
 
 const input2 = [1,2,3,5];
 console.log(`INPUT = ${JSON.stringify(input2)}`)
-rotateArray(input2, 5);
+missingNumber(input2, 5);
 console.log('###############################');
