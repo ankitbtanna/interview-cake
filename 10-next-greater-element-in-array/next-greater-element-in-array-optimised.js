@@ -12,9 +12,8 @@ for (let i = 0; i < size; i++) {
         continue;
     }
 
-    let iterator = i;
-    while (!myStack.isEmpty() && (input[iterator] > input[myStack.top()])) {
-        output[myStack.top()] = input[iterator];
+    while (!myStack.isEmpty() && (input[i] > input[myStack.top()])) {
+        output[myStack.top()] = input[i];
         myStack.pop();
     }
     myStack.push(i);
