@@ -89,7 +89,7 @@ N = 10000,  O(10N) = 100,000,   O(N^2) = 1,0000,0000    <---- 1000xBigger
 
 - N^2 just grows massively larger than 10N. It grows disproportionately fast as compared to whatever the constant is in front of it.
 
-[](https://github.com/ankitbtanna/interview-cake/blob/main/28-last-algorithm-course/images/img1.png?raw=true)
+[](images/img1.png?raw=true)
 
 - Since we are not trying to get an exact time, constants are not that important.
 
