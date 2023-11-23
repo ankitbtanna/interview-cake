@@ -37,7 +37,7 @@ function generateResultMatrixDimensions(matrixA, matrixB) {
 }
 
 function generateArrayFromDimensions(rows, columns) {
-    return Array.from({length: rows}, () => Array(3).fill(0));
+    return Array.from({length: rows}, () => Array(columns).fill(0));
 }
 
 function dotMultiplication(row, column) {
