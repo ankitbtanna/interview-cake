@@ -89,7 +89,7 @@ N = 10000,  O(10N) = 100,000,   O(N^2) = 1,0000,0000    <---- 1000xBigger
 
 - N^2 just grows massively larger than 10N. It grows disproportionately fast as compared to whatever the constant is in front of it.
 
-![](./images/img1.png)
+![Image description](./images/img1.png)
 
 - Since we are not trying to get an exact time, constants are not that important.
 
@@ -124,7 +124,7 @@ function sum_char_codes(n) {
 - Interviews rarely ask average or best case scenarios
 
 # All the Big-O Complexities
-![](./images/img2.png)
+![Image description](./images/img2.png)
 
 - O(1) = Constant time
 - O(logN)
