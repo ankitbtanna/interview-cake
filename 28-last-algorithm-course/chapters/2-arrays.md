@@ -74,4 +74,4 @@ console.log(a);
 - You cannot grow it
 - There is no inserAt or push or pop methods. JS provides you these sugar syntactical benifits.
 - Create, insert and delete are implemented over the top of an array
-
+- Static or traditional arrays dont have these methods, like in C.
