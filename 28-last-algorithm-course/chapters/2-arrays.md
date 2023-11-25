@@ -69,3 +69,9 @@ console.log(a);
 - Insertion at a specific address = overrite the memory and shift other elements to a new memeory. Some languages have capacity built in so they do not have to manage values in the memory when something is inserted at a specific address.
 - Deleting at a specofic index is also setting it to a null or 0 value with a constant time
 
+# Arrays
+- They are fixed, contiguous memory chunks
+- You cannot grow it
+- There is no inserAt or push or pop methods. JS provides you these sugar syntactical benifits.
+- Create, insert and delete are implemented over the top of an array
+
