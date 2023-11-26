@@ -63,4 +63,4 @@ binary_search_fn(array, itemToSearch) {
 # Assumption
 - This all logic is under an assumption that you are doing this in a sorted array
 - You can never do this in an unsorted array
-- This is because chosing the right half or the left half is solely dependent on which element I am larger than
+- This is because chosing the right half or the left half is solely dependent on the condition.
