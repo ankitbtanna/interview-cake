@@ -4,19 +4,20 @@ function binary_fn(haystack: number[], itemToSearch: number): boolean {
 
     do {
         const mid = Math.floor(low + (high - low)/2);
+        console.log(mid);
         const value = haystack[mid];
 
         if(itemToSearch === value) {
             return true;
         }
 
-        if (itemToSearch > value) {
-            low = mid + 1;
-        } else if (itemToSearch < value) {
+        if (value > itemToSearch) {
             high = mid;
+        } else if (value < itemToSearch) {
+            low = mid + 1;
         }
         
-    } while(low > high)
+    } while(low < high)
 
     return false;
 }

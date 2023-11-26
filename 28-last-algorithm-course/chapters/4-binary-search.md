@@ -49,10 +49,16 @@ binary_search_fn(array, itemToSearch) {
             return true;
         }
 
-        if (itemToSearch > midValue) {
-            low = mid + 1;
-        } else if (itemToSearch < midValue) {
+        if (midValue > itemToSearch) {
             high = mid;
+        } else if (midValue < itemToSearch) {
+            low = mid + 1;
+        }
+
+        if (value > itemToSearch) {
+            high = mid;
+        } else if (value < itemToSearch) {
+            low = mid + 1;
         }
     } while (low < high)
 
