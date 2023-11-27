@@ -2,23 +2,26 @@ function two_crystal_balls(breaks: boolean[]): number {
     const length = breaks.length;
     
     let jumpAmount = Math.floor(Math.sqrt(length));
+    let i = jumpAmount; // set out jump length
 
-    let i = jumpAmount;
-
+    // check for breaks and jump square root of n
     for(; i < breaks.length; i += jumpAmount) {
         if (breaks[i]) {
             break;
         }
     }
 
+    // walk back square root of n
     i -= jumpAmount;
 
+    // linearly walk forward at most square root of n
     for (let j = 0; j < jumpAmount && i < length; ++j, ++i) {
         if (breaks[i]) {
             return i;
         }
     }
 
+    // if not found, return -1
     return -1;
 
 }
